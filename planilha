@@ -1,0 +1,51 @@
+<!DOCTYPE 
+tml><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 1% AVIATOR</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body background="img/12.png">
+    <div class="container">
+        <header>
+            <img src="" alt="Logo" class="logo">
+        </header>
+        <main>
+            <div class="input-group">
+                <label for="capitalInicial">Banca inicial em Reais:</label>
+                <input type="number" id="capitalInicial" placeholder="Ex: 1000">
+            </div>
+            <div class="input-group">
+                <label for="tipoSoldado">Meta Diária (em % da banca):</label>
+                <select id="tipoSoldado">
+                    <option value="0.1">Conservador - 10% da banca</option>
+                    <option value="0.2">Moderado - 20% da banca</option>
+                    <option value="0.3">Arrojado - 30% da banca</option>
+                </select>
+            </div>
+            <button onclick="calcularMeta()">Calcular</button>
+            <div style="display: none;" class="result">
+                <h2>Resultados</h2>
+                <p>capital Inicial: <span id="saldoTotalResult">0,00</span></p>
+            </div>
+            <div class="table-container">
+                <h2>Planilha</h2>
+                <table id="planilha">
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Saldo do Dia</th>
+                            <th>Meta Diária</th>
+                            <th>Valor Final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+             <iframe src="https://aposta7.bet?ref=cb17858789d8" width="100%" height="650x" frameborder="0" scrolling="no"></iframe>
+        </main>
+    </div>
+    <script src="js/script1.js"></script>
+
+</body></html>
